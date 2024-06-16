@@ -1,7 +1,7 @@
 
 import Background from "../assets/man_at_the_laptop.jpg"
 import { TypeAnimation } from "react-type-animation"
-import {FaTwitter, FaFacebookF, FaLinkedinIn, FaGithubAlt} from 'react-icons/fa'
+import { FaLinkedinIn, FaGithubAlt} from 'react-icons/fa'
 const Main = () => {
   return (
     <div id="main">
@@ -28,11 +28,18 @@ const Main = () => {
                 /> Developer
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaTwitter    className='cursor-pointer' size={20}/>
-            <FaFacebookF  className='cursor-pointer' size={20}/>
-            <FaLinkedinIn className='cursor-pointer' size={20}/>
-            <FaGithubAlt  className='cursor-pointer' size={20}/>
-
+            {/* <a href="">
+              <FaTwitter    className='cursor-pointer' size={20}/>
+            </a>
+            <a href="">
+              <FaFacebookF  className='cursor-pointer' size={20}/>
+            </a> */}
+            <a href="https://www.linkedin.com/in/wilson-shea-conroy/">
+              <FaLinkedinIn className='cursor-pointer' size={20}/>
+            </a>
+            <a href="https://github.com/SheaW84">
+              <FaGithubAlt  className='cursor-pointer' size={20}/>
+            </a>
           </div>
         </div>
       </div>
