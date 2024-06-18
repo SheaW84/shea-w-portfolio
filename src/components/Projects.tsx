@@ -2,6 +2,7 @@
 import ProjectItem from './ProjectItem'
 import carInventory from '../assets/lighthearted-dragon-c82323.netlify.app_.png'
 import sneaker from '../assets/stirring-panda-8ebc20.netlify.app_.png'
+
 const Projects = () => {
   return (
     <div id = 'projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
