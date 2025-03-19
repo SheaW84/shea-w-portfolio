@@ -2,6 +2,7 @@
 import ProjectItem from './ProjectItem'
 import carInventory from '../assets/lighthearted-dragon-c82323.netlify.app_.png'
 import sneaker from '../assets/stirring-panda-8ebc20.netlify.app_.png'
+import React from 'react'
 
 const Projects = () => {
   return (

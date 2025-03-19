@@ -2,6 +2,7 @@
 import Background from "../assets/man_at_the_laptop.jpg"
 import { TypeAnimation } from "react-type-animation"
 import { FaLinkedinIn, FaGithubAlt} from 'react-icons/fa'
+import React from 'react'
 const Main = () => {
   return (
     <div id="main">
